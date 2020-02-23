@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styles Page</title>
+	<style type="text/css">
+		#main-header{
+			text-align: left;
+			background-color: #99ccff;
+			padding: 10px;
+			color:rgb(51, 51, 20);
+		}
+		h2 {
+			color:white;
+			}
+
+		a:link {
+			color:pink;
+		}
+
+		a:visited {
+			color: #000099;
+		}
+
+		a:hover {
+			color: hsl(30, 100%, 60%);
+		}
+
+		p {
+			text-align: center;
+		}
+
+		#tutorial-text{
+			background-color: grey;
+			color: white;
+		}
+	</style>
+
+<!-- Another way to write the style 
+
+	<style>
+		body {back-ground-color:blue;}
+		h1 {color:red;}
+		p {color:white;}
+	</style>
+
+-->
+
+
+</head>
+<body style="background-color: darkolivegreen;">
+	<header id="main-header">
+	<h1 style="font-family: verdana;">CSS Styles in HTML Cheat Sheet</h1>
+	</header>
+
+<a href="index.html">Go to HTML Cheat sheet</a>
+<br>
+<a href="example.html">Go to Assignment Example</a>
+
+<div style="max-width: 50%; margin:auto;">
+	<p id="tutorial-text">This section of the tutorial will be about adding CSS code to your html page. We will cover CSS in detail on the portfolio assignment, however you can use this and <a href="https://www.w3schools.com/" target=" ">w3 schools </a> to help you out as well. Please note that CSS is not required for the first assignment, however CSS will add more to your page.</p>
+
+	<p id="tutorial-text">Below we have various text that changes depending on the CSS code that is used. Opposed to the technique of adding style to the < head > tag, we will add the CSS styles in between the < p > paragraph tags.</p>
+	<p>First we have normal text</p>
+
+	<p>
+	I am normal text	
+	</p>
+
+	<a href="http://www.yahoo.com">
+	<img src="images/world.gif">
+</a>
+	<p style="color:red;">This is class demo text</p>
+
+	<p id="tutorial-text">By adding a style attribute, we can then begin to add style to the text. Try adding style="color:red;" in between the brackets of the < p > tag. Just the first one! Not the closing tag. Add a < br > break tag after a word to create a forced text break!</p>
+
+	<p style="color:red;">This is red text<br>with a break
+	</p>
+
+	<p id="tutorial-text">Try a different color! Type in a name of a color HTML/CSS both come with various build in color names, blue, red, black, white, etc. More can be found at w3 schools.</p>
+
+	<p style="color:blue">
+	I am blue text. 
+	</p>
+
+	<p id="tutorial-text">You can also use hex color codes to pick your color!</p>
+	
+	<p style="color:#ff9933">
+	I am orange text set by hex value <a href="https://www.w3schools.com/colors/colors_picker.asp" target=" ">link for html color picker</a>
+	</p>
+
+	<p id="tutorial-text">Here we added a style="background-color:rgba(r,g,b,a)" as a another technique to add color. This time more of a highlighted effect. The values will need to be numbers for r,g,b, and a. a = alpha, and goes up to 1.0 - 0.0.</p>
+
+	<p style="background-color:rgba(255, 99, 71, 0.4)">
+	This text has an red box background but is slightly transparent.
+	</p>
+
+	<p id="tutorial-text"> You can also change the size of the text in various ways, pixel value or percentage.<br>
+	There are various ways to change text. You can see in the code, without using a CSS page things get a little busy!</p>
+
+	<p style="font-size:50px;">
+	This text size is changed by value (pixels)
+	</p>
+	<p style="font-size:75%;">
+	This font size is changed by percent
+	</p>
+	<p style="font-family:courier;">
+	I am text with a courier font
+	</p>
+	<p style="text-align: center;">
+	I am text that is centered
+	</p>
+	<p style="border: 2px solid Violet;">
+	I am text has a violet border
+	</p>
+
+	<h2>This style is edited in the head tag</h2>
+</div>
+
+	<!-- Try different text styles. 
+		margin: Xpx;
+		padding: Xpx;
+
+	-->
+
+
+</body>
+</html>
